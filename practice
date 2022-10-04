@@ -25,4 +25,7 @@ def solution(num1, num2):
     else:
         answer = -1;
     return answer
-7.
+7. 나이 출력.
+def solution(age):
+    answer = 2022-(age-1)
+    return answer
