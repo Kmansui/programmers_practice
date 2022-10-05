@@ -33,3 +33,7 @@ def solution(age):
 def solution(numbers):
     answer = sumnumbers) / len(numbers)
     return answer
+9. 두수의 나눗셈
+def solution(num1, num2):
+    answer = int((num1/num2)*1000)
+    return answer
