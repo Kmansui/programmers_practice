@@ -65,3 +65,7 @@ def solution(n):
     elif(angle==180):
         answer = 4
     return answer
+ 13. 중복된 숫자 갯수
+ def solution(array, n):
+    answer = array.count(n)
+    return answer
