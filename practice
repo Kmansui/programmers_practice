@@ -44,3 +44,24 @@ def solution(n):
         if (i % 2 == 0):
             answer += i
     return answer
+11. 자릿 수 더하기
+def solution(n):
+    answer = 0
+    n = list(str(n))
+    
+    for i in range(0,len(n),1):
+        answer += int(n[i])
+        
+    return answer
+ 12. 각도기
+ def solution(angle):
+    answer = 0
+    if(0<angle<90):
+        answer = 1
+    elif(angle==90):
+        answer = 2
+    elif(90<angle<180):
+        answer = 3
+    elif(angle==180):
+        answer = 4
+    return answer
