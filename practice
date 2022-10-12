@@ -85,3 +85,18 @@ def solution(array, height):
         else:
             answer += 1
     return answer
+16. 크레인 인형뽑기
+def solution(board, moves):
+    answer = 0
+    pre = 0
+    array=[]
+    for i in range(0,len(moves),1):
+        pre = moves[i]-1
+        for k in range(len(board)):
+            if(board[k][pre] != 0):
+                array.append(board[k][pre])
+                board[k][pre] = 0
+                break
+    print(array)
+                
+    return answer
