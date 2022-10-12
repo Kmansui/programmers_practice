@@ -76,3 +76,12 @@ def solution(n):
     
     answer = array[len(array) // 2]
     return answer
+15. 머쓱이보다 키큰 사람
+def solution(array, height):
+    answer = 0
+    for i in range(0,len(array) , 1,):
+        if (height>array[i]):
+            answer = 0
+        else:
+            answer += 1
+    return answer
