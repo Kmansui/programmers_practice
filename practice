@@ -85,7 +85,7 @@ def solution(array, height):
         else:
             answer += 1
     return answer
-16. 크레인 인형뽑기
+16. 크레인 인형뽑기 ( 연습중 )
 def solution(board, moves):
     answer = 0
     pre = 0
@@ -100,3 +100,12 @@ def solution(board, moves):
     print(array)
                 
     return answer
+17. 피자 나눠 먹기(1)
+def solution(n):
+    answer = 0
+    if (n%7 == 0):
+        answer = n//7
+    else:
+        answer = n//7 +1
+    return  answer
+
